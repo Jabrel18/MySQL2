@@ -1,0 +1,6 @@
+SELECT E.EmpFname, E.EmpLname, P.EmpPosition 
+FROM EmployeeInfo E 
+JOIN EmployeePosition P 
+	ON E.EmpID = P.EmpID AND P.EmpPosition IN ('Manager');
+  
+  
