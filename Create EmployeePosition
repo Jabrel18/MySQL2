@@ -1,0 +1,14 @@
+CREATE TABLE EmployeePosition(  
+EmpID int (1) , 
+EmpPosition varchar (30) , 
+DateOfJoining date  , 
+Salary decimal(10,2),
+FOREIGN KEY(EmpID) REFERENCES EmployeeInfo(EmpID)   
+);
+
+INSERT INTO employeeposition VALUES  
+(1, 'Manager', '2022-01-05', '500000'),  
+(2, 'Executive', '2022-02-05', '75000'),  
+(3, 'Manager', '2022-01-05', '90000'),  
+(2, 'Lead', '2022-02-05', '85000'),  
+(1, 'Executive', '2022-01-05', '300000');
