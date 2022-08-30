@@ -1,0 +1,5 @@
+SELECT * 
+FROM EmployeeInfo 
+WHERE EmpFname 
+LIKE 'S%'
+ORDER BY EmpFNAME;
