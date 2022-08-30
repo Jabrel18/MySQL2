@@ -1,0 +1,18 @@
+CREATE TABLE EmployeeInfo(  
+EmpID int (1) AUTO_INCREMENT, 
+EmpFname varchar (30), 
+EmpLname varchar (30), 
+Department varchar (30), 
+Project varchar (2), 
+Address varchar (50), 
+DOB date , 
+GENDER varchar(1) ,  
+PRIMARY KEY (EmpID)
+);
+
+INSERT INTO employeeinfo VALUES 
+(1, 'Sanjay', 'Mehra', 'HR', 'P1', 'Hyderabad(HYD)', '1976-01-12', 'M'),
+(2, 'Ananya', 'Mishra', 'Admin', 'P2', 'Delhi(DEL)', '1968-02-05', 'F'),
+(3, 'Rohan', 'Diwan', 'Account', 'P3', 'Mumbai(BOM)', '1980-01-01', 'M'),
+(4, 'Sonia', 'Kulkarni', 'HR', 'P1', 'Hyderabad(HYD)', '1992-02-05', 'F'),
+(5, 'Ankit', 'Kapoor', 'Admin', 'P1', 'Delhi(DEL)', '1994-03-07', 'M');
