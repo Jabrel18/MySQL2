@@ -1,0 +1,7 @@
+SELECT Salary AS min_Salary
+FROM employeeposition  
+ORDER BY Salary ASC LIMIT 2;
+SELECT Salary AS max_Salary
+FROM employeeposition  
+ORDER BY Salary DESC LIMIT 2;
+
