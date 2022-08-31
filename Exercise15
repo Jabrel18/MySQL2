@@ -1,4 +1,3 @@
-SELECT * FROM EmployeeInfo 
-WHERE Address 
-LIKE 'DELHI(DEL)%';
+SELECT * FROM employeeinfo
+WHERE Address = 'DELHI(DEL)';
 
