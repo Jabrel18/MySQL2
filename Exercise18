@@ -1,0 +1,6 @@
+SELECT * FROM employeeinfo 
+WHERE (EmpID % 2) = 0; # even
+
+
+SELECT * FROM employeeinfo 
+WHERE (EmpID % 2) > 0; # odd
