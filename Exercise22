@@ -1,0 +1,5 @@
+SELECT COUNT(*) 
+FROM EmployeeInfo
+GROUP BY EmpID, EmpFname, Department 
+HAVING COUNT(*) > 1;
+
