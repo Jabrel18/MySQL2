@@ -1,0 +1,6 @@
+SELECT COUNT(Department), Department
+	FROM employeeinfo
+    GROUP BY Department
+	HAVING COUNT(Department) = 1;
+  
+  
