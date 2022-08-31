@@ -2,3 +2,8 @@ SELECT * FROM EmployeePosition
 WHERE Salary 
 BETWEEN '50000' AND '100000';
 
+
+-- IF SUM OF EmpID SALARY
+SELECT * FROM employeeposition
+GROUP BY EmpID HAVING sum(Salary)
+BETWEEN '50000' AND '100000';
