@@ -1,0 +1,14 @@
+SET @n = 3;
+SET @ROWNUM = 0;
+
+SELECT
+  EmpID, EmpPosition, Salary
+ FROM
+  (SELECT
+    employeeposition.*, @ROWNUM:= @ROWNUM + 1 R
+   FROM
+    employeeposition
+   ORDER BY SALARY DESC) d
+ WHERE
+    R <= @N;
+    
