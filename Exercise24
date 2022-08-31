@@ -1,0 +1,4 @@
+SELECT * 
+FROM employeeinfo  
+ORDER BY EmpID DESC LIMIT 3;
+
