@@ -1,0 +1,4 @@
+(SELECT * FROM employeeinfo ORDER BY EmpID ASC LIMIT 1)
+UNION
+(SELECT * FROM employeeinfo ORDER BY EmpID DESC LIMIT 1);
+
