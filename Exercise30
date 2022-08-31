@@ -1,0 +1,6 @@
+SELECT *
+FROM EmployeeInfo 
+WHERE EmpID < (SELECT COUNT(*)/2 
+FROM EmployeeInfo);
+
+
