@@ -1,2 +1,2 @@
-SELECT MID(Address, 1, LOCATE('(',Address)) 
+SELECT MID(Address, 1, LOCATE('(',Address) - 1 ) 
 FROM EmployeeInfo;
