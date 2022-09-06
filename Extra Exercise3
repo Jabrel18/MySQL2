@@ -1,0 +1,19 @@
+UPDATE employeeinfo 
+SET Email = 'S.Mehra@tech.com'
+WHERE EmpID = 1;
+
+UPDATE employeeinfo 
+SET Email = 'A.Mishra@tech.com'
+WHERE EmpID = 2;
+
+UPDATE employeeinfo 
+SET Email = 'R.Diwan@tech.com'
+WHERE EmpID = 3;
+
+UPDATE employeeinfo 
+SET Email = 'S.Kulkarni@tech.com'
+WHERE EmpID = 4;
+
+UPDATE employeeinfo 
+SET Email = 'A.Kapoor@tech.com'
+WHERE EmpID = 5;
